@@ -1,0 +1,11 @@
+[package]
+name = "dice"
+version = "0.1.0"
+authors = ["Christian Sigl <subjectdenied@gmail.com>"]
+
+[lib]
+name = "rcmd"
+path = "src/rcmd.rs"
+
+[dependencies]
+rand = "*"
